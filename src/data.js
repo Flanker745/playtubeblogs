@@ -1,3 +1,9 @@
+import { Link } from "react-router-dom";
+import img1 from "./assets/images/img1.png"
+import img2 from "./assets/images/img2.png"
+import img3 from "./assets/images/img3.png"
+
+
 export const avatars = [
     "https://i.pravatar.cc/40?img=1",
     "https://i.pravatar.cc/40?img=2",
@@ -63,3 +69,12 @@ export const avatars = [
       ],
     },
   ];
+
+  export const Links = [
+    { id: 1, post: 1, img: img1 , link:"13q37C-O_grUC9vHN86a2-A" },
+    { id: 2, post: 2, img: img2 , link:"1YN007-8z1BrpTltxCpGmOw" },
+    { id: 3, post: 3, img: img3 , link:"1fsenGBpV_1xQU0fN8d4zlw" },
+
+
+  ];
+  
